@@ -1,6 +1,6 @@
 body {
 background-color:rgb(7, 5, 5);
-Height:1700px;
+Height:2000px;
 width: auto;
 }
 
@@ -119,7 +119,7 @@ position: absolute;
 height:300px;
 width:200px;
 background-color:purple;
-left:85%;
+left:87%;
 }
 
 #bildprocess2 {
@@ -128,6 +128,21 @@ height:300px;
 width:200px;
 background-color:purple;
 left:3%;
+display:flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+padding:5px;
+}
+
+#bild{
+  height:250px;
+  width:200px;
+  background-color:red;
+}
+
+#intervjumall{
+  padding:5px;
 }
 
 #underrubrik {
