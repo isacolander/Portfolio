@@ -114,10 +114,18 @@ Height:auto;
 padding:15px;
 }
 
-.bildprocess {
+#bildprocess {
 position: absolute;
 height:300px;
 width:200px;
 background-color:purple;
 left:85%;
+}
+
+#bildprocess2 {
+position: absolute;
+height:300px;
+width:200px;
+background-color:purple;
+left:3%;
 }
