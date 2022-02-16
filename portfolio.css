@@ -109,3 +109,11 @@ width:70%;
 Height:auto;
 padding:15px;
 }
+
+.bildprocess {
+position: absolute;
+height:300px;
+width:200px;
+background-color:purple;
+left:85%;
+}
