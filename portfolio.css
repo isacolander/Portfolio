@@ -71,7 +71,7 @@ padding: 15px;
 
 #casestudy {
 width:100%;
-height:600px;
+height:800px;
 background-color: red;
 font-family: 'Work Sans', sans-serif;
 color:rgb(255, 251, 211);
@@ -100,8 +100,9 @@ width: 100%;
 height: auto;
 background-color:green;
 display: flex;
-justify-content: center;
+flex-direction: column;
 align-items: center;
+justify-content: space-around;
 }
 
 .casetext{
