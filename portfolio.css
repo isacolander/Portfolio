@@ -26,6 +26,25 @@ color:rgb(255, 251, 211);
 font-family: 'Oswald', sans-serif;
 }
 
+.menu{
+  background-color: grey;
+  width:25%;
+  height:1000px;
+  position: fixed;
+  top:0px;
+  right:0px;
+  color:rgb(255, 251, 211);
+  font-family: 'Oswald', sans-serif;
+}
+
+.menu .navbar{
+display: none;
+}
+
+.menu:focus-within .navbar {
+display: block;
+}
+
 .hamburger {
 /* background-color:black; */
 width: 50px;
@@ -50,7 +69,7 @@ main {
 width:100%;
 height:inherit;
 /* background-color: gray; */
-background-color:rgb(7, 5, 5)
+background-color:rgb(7, 5, 5);
 display: block;
 align-items: center;
 justify-content: center;
