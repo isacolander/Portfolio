@@ -21,7 +21,6 @@ font-size: 180px;
 }
 
 .menu{
-  background-color: grey;
   width:10%;
   height:1000px;
   position: fixed;
@@ -29,7 +28,6 @@ font-size: 180px;
   right:0px;
   color:black;
   font-family: 'Oswald', sans-serif;
-  background-color:white;
   font-size: 40px;
 }
 
@@ -82,4 +80,18 @@ main{
   height: 458px;
   border-radius: 50%;
   filter: blur(150px);
+}
+
+#floatbox{
+  margin-top:5%;
+  position: absolute;
+}
+
+.navhome {
+  font-family: 'Oswald', sans-serif;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+padding: 15px;
+font-size: 40px;
 }
