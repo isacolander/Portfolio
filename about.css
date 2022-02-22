@@ -17,7 +17,7 @@ header{
   display: flex;
   justify-content: center;
   align-items:baseline;
-  margin-top: -4%;
+  margin-top: -3%;
 }
 
 #huvudtext {
@@ -167,7 +167,7 @@ footer {
 }
 
 #mailme {
-  width:25%;
+  width:auto;
   height: auto;
   font-family: 'Work Sans', sans-serif;
   font-weight: bold;
@@ -176,6 +176,9 @@ footer {
 
 #logotype {
   padding:15px;
+  display: flex;
+  justify-content: space-between;
+  width:150px;
 }
 
 @keyframes star {
