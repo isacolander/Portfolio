@@ -107,6 +107,12 @@ a {
 
 #aboutmebild {
   width:100%;
-  height:500px;
+  height:600px;
   background-color:green;
+}
+
+#aboutmebild2 {
+  width:100%;
+  height:600px;
+  background-color:red;
 }
