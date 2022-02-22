@@ -176,3 +176,14 @@ footer {
 #logotype {
   padding:15px;
 }
+
+@keyframes star {
+from{opacity: 0;}
+to{opacity: 100%;}
+}
+
+#star1{
+  animation-name: star;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
