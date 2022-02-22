@@ -83,7 +83,7 @@ main{
   width: 458px;
   height: 458px;
   border-radius: 50%;
-  filter: blur(200px);
+  filter: blur(170px);
 }
 
 #floatbox{
