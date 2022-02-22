@@ -178,8 +178,11 @@ footer {
 }
 
 @keyframes star {
-from{opacity: 0;}
-to{opacity: 100%;}
+  0%   {opacity: 0}
+    25%  {opacity: 50%;}
+    50%  {opacity: 100%;}
+    75%  {opacity: 50%;}
+    100% {opacity: 0}
 }
 
 #star1{
