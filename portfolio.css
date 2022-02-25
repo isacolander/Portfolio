@@ -138,13 +138,12 @@ color:black;
   display: flex;
   align-items: center;
   justify-content: center;
-
 }
 
 .underrubrik2{
   width:80%;
   height: auto;
-  font-size: 25px;
+  font-size: 35px;
   font-weight: bold;
 }
 
@@ -198,16 +197,25 @@ padding:5px;
 }
 
 .maintext{
-  width:45%;
+  width:35%;
   height: auto;
   font-size: 25px;
   padding: 1rem;
+}
+
+#inledandetext2 {
+  width:100%;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .maintext2{
   width:70%;
   height: auto;
   font-size: 25px;
+  font-weight: bold;
 }
 
 a {
