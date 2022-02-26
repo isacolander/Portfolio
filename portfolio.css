@@ -1,7 +1,7 @@
 body {
 background-color:white;
 Height:auto;
-width: 100%;
+width: auto;
 }
 
 header{
@@ -27,7 +27,7 @@ font-family: 'Oswald', sans-serif;
 }
 
 .menu{
-  width:10%;
+  width:15%;
   height:1000px;
   position: fixed;
   top:0px;
@@ -167,7 +167,7 @@ color:black;
 }
 
 .surveytext{
-  width:45%;
+  width:55%;
   height: auto;
   padding:50px;
   font-size: 1.2vw;
