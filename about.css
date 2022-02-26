@@ -7,7 +7,6 @@ body{
 }
 
 html {
-
   scroll-behavior: smooth;
 }
 
@@ -135,6 +134,7 @@ a {
   font-size: 2.5vw;
   width:40%;
   height: auto;
+  font-weight: 600;
 }
 
 #aboutmebild2 {
@@ -152,6 +152,7 @@ a {
   font-size: 2vw;
   width:35%;
   height:auto;
+  font-weight: 600;
   /* background-color:green; */
 }
 
@@ -160,12 +161,14 @@ a {
   width:35%;
   height:auto;
   /* background-color:green; */
+  font-weight: 600;
 }
 
 #text {
   padding:15px;
   font-size: 2vw;
   width:45%;
+  font-weight: 600;
 }
 
 footer {
@@ -183,7 +186,7 @@ footer {
   width:auto;
   height: auto;
   font-family: 'Work Sans', sans-serif;
-  font-weight: bold;
+  font-weight: 600;
   font-size: 2.5vw;
 }
 
