@@ -28,7 +28,7 @@ font-family: 'Oswald', sans-serif;
 
 .menu{
   width:15%;
-  height:1000px;
+  height:auto;
   position: fixed;
   top:0px;
   right:0px;
@@ -38,7 +38,7 @@ font-family: 'Oswald', sans-serif;
 }
 
 .navbar {
-margin-top:200px;
+margin-top:120px;
 }
 
 .menu .navbar{
@@ -205,6 +205,7 @@ color:black;
 }
 #finished {
   width:60vw;
+  padding:25px;
 }
 #finishedheader{
   font-weight: 800;
