@@ -171,11 +171,13 @@ color:black;
   height: auto;
   padding:50px;
   font-size: 1.2vw;
+  line-height: 1.2;
 }
 
 .surveyheader{
   font-weight: 800;
   font-size: 1.5vw;
+  padding: 15px;
 }
 
 .surveybild{
