@@ -121,7 +121,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-bottom:40px;
+  padding-bottom:100px;
 }
 
 #isac{
@@ -168,7 +168,7 @@ a {
   padding:15px;
   font-size: 2vw;
   width:45%;
-  font-weight: 600;
+  font-weight: 400;
 }
 
 footer {
@@ -209,4 +209,8 @@ footer {
   animation-name: star;
   animation-duration: 4s;
   animation-iteration-count: infinite;
+}
+
+#talk2me:hover {
+  color:blue;
 }
