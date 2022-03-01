@@ -152,7 +152,7 @@ a {
   font-size: 2vw;
   width:35%;
   height:auto;
-  font-weight: 600;
+  font-weight: 700;
   /* background-color:green; */
 }
 
@@ -161,14 +161,14 @@ a {
   width:35%;
   height:auto;
   /* background-color:green; */
-  font-weight: 600;
+  font-weight: 700;
 }
 
 #text {
   padding:15px;
   font-size: 2vw;
   width:45%;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 footer {
