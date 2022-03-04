@@ -265,6 +265,20 @@ footer {
   width:150px;
 }
 
+#cvcontainer {
+  width:auto;
+  height:auto;
+  display:grid;
+  place-items:center;
+}
+
+#cvbild{
+  width:600px;
+  border-style:solid;
+  border-widht:5px;
+  border-radius:5px;
+}
+
 
 a {
     text-decoration: none;
