@@ -1,0 +1,289 @@
+body {
+background-color:white;
+Height:auto;
+width: auto;
+}
+
+header{
+  width:100%;
+  height:auto;
+  /* background-color: gray; */
+  display: flex;
+  justify-content: center;
+  align-items:baseline;
+  margin-top: -3%;
+}
+
+#huvudtext {
+color:black;
+font-family: 'Oswald', sans-serif;
+font-size: 10vw;
+}
+
+#uxfolio{
+font-size: 30px;
+color:black;
+font-family: 'Oswald', sans-serif;
+}
+
+.menu{
+  width:15%;
+  height:auto;
+  position: fixed;
+  top:0px;
+  right:0px;
+  color:black;
+  font-family: 'Oswald', sans-serif;
+  font-size: 40px;
+}
+
+.navbar {
+margin-top:120px;
+}
+
+.menu .navbar{
+display: none;
+}
+
+.menu:focus-within .navbar {
+display: block;
+}
+
+.hamburger {
+Background-color:white;
+border: none;
+width: 60px;
+height: 60px;
+position: fixed;
+left:93%;
+top:5%;
+padding: 5px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: space-around;
+}
+
+#hamb{
+width:100%;
+height:10px;
+background-color:black;
+}
+
+main {
+width:100%;
+height:inherit;
+/* background-color: gray; */
+background-color:white;
+display: block;
+align-items: center;
+justify-content: center;
+}
+
+#alma{
+width:40vw;
+height:auto;
+}
+
+#mediascroller {
+height:auto;
+width:80%;
+/* background-color: black; */
+background-color:white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: auto;
+overflow-y: hidden;
+padding: 15px;
+}
+
+#maincontainer {
+width:100%;
+height:auto;
+/* background-color: red; */
+background-color:white;
+font-family: 'Work Sans', sans-serif;
+color:black;
+}
+
+#studyheader{
+  width:100%;
+  height:auto;
+  /* background-color: blue; */
+  background-color:white;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+#study1 {
+  font-size: 5vw;
+  padding:5px;
+}
+
+#study2 {
+  font-size: 2vw;
+}
+
+#intro{
+  width:100%
+  height:auto;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 800;
+  font-size: 1.5vw;
+  display: grid;
+  place-items:Center;
+}
+
+#summary{
+  width:80%;
+  height:auto;
+}
+
+#pretext{
+  width:100%
+  height:auto;
+  font-family: 'Work Sans', sans-serif;
+  font-weight:500;
+  font-size: 1.5vw;
+  display: grid;
+  place-items:Center;
+  padding-bottom: 50px;
+}
+
+#prepara{
+  width:80%;
+  height:auto;
+}
+
+.processen{
+  width:100%;
+  height:auto;
+  font-weight: 500;
+  display:flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+#aquarium {
+  width:100%;
+  height:auto;
+  display:grid;
+  place-items:center;
+  padding-bottom: 80px;
+}
+
+#shab {
+  width:60%;
+  display:flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#aqbild {
+  width:25vw;
+}
+
+#aquarium2 {
+  width:100%;
+  height:auto;
+  display:grid;
+  place-items:center;
+  padding-bottom: 40px;
+}
+
+#shab2 {
+  width:40%;
+  display:flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+#aqbild2 {
+  width:15vw;
+}
+
+.surveytext{
+  width:70%;
+  height: auto;
+  font-size: 1.2vw;
+  line-height: 1.2;
+  align-items: flex-start;
+}
+
+.surveyheader{
+  font-weight: 800;
+  font-size: 1.5vw;
+  padding: 15px;
+}
+
+.surveybild{
+  width:auto;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: center;
+}
+
+#surveyproc {
+  width:15vw;
+  padding: 10px;
+}
+
+#survey2text {
+  font-size: 1vw;
+  padding:10px;
+  font-weight: 700;
+}
+
+#finished-design {
+  width:100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+#finished {
+  width:40vw;
+  padding:25px;
+}
+#finishedheader{
+  font-weight: 800;
+  font-size: 2vw;
+  padding:15px;
+}
+
+footer {
+  width:100%;
+  height:300px;
+  /* display:flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center; */
+  display: grid;
+  place-items:center;
+}
+
+#mailme {
+  width:auto;
+  height: auto;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 2.5vw;
+}
+
+#logotype {
+  padding:15px;
+  display: flex;
+  justify-content: space-between;
+  width:150px;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
