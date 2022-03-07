@@ -98,6 +98,18 @@ overflow-y: hidden;
 padding: 15px;
 }
 
+#prevcase {
+font-family: 'Work Sans', sans-serif;
+font-size: 1.5rem;
+font-weight: 700;
+}
+
+#nextcase {
+font-family: 'Work Sans', sans-serif;
+font-size: 1.5rem;
+font-weight: 700;
+}
+
 #maincontainer {
 width:100%;
 height:auto;
