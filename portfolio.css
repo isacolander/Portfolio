@@ -98,10 +98,18 @@ overflow-y: hidden;
 padding: 15px;
 }
 
-#prevcase, #nextcase {
+#prevcase {
+opacity: 0;
 font-family: 'Work Sans', sans-serif;
 font-size: 1.5rem;
-font-weight: 600;
+font-weight: 700;
+cursor:default;
+}
+
+#nextcase {
+font-family: 'Work Sans', sans-serif;
+font-size: 1.5rem;
+font-weight: 700;
 }
 
 #maincontainer {
