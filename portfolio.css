@@ -167,6 +167,19 @@ color:black;
   padding-bottom: 50px;
 }
 
+#thecasestudies{
+  width:auto;
+  height: auto;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 2vw;
+  border-radius:2em;
+  padding:20px;
+  color:white;
+  background-color:#00FF38;
+  transition: all 0.2s;
+}
+
 #prepara{
   width:80%;
   height:auto;
@@ -274,10 +287,10 @@ footer {
 }
 
 #logotype {
-  padding:15px;
+  padding:25px;
   display: flex;
   justify-content: space-between;
-  width:150px;
+  width:200px;
 }
 
 #cvcontainer {
