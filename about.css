@@ -137,9 +137,26 @@ main{
   font-size: 2.5vw;
 }
 
+#navhome:hover {
+  color:blue;
+}
+
 a {
     text-decoration: none;
-    color: inherit;
+    color:black;
+}
+
+a:hover {
+    text-decoration: none;
+    color:white;
+}
+
+#casestudyknapp {
+  color:white;
+}
+
+#casestudyknapp:hover {
+  color:white;
 }
 
 #aboutmebild {
@@ -267,5 +284,5 @@ footer {
 }
 
 #talk2me:hover {
-  color:blue;
+  color:#00FF29;
 }
