@@ -98,12 +98,16 @@ main{
 }
 
 #circle{
-  background-color:green;
-  width: 30vw;
-  height: 30vw;
+  /* background-color:green; */
+/*   width: 30vw;
+  height: 30vw; */
+  width:auto;
+  height: auto;
   border-radius: 50%;
-  filter: blur(8vw);
+  /* filter: blur(8vw); */
   z-index: -2;
+  display:grid;
+  place-items:center
 }
 
 #circle2{
