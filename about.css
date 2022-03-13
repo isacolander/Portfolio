@@ -286,3 +286,9 @@ footer {
 #talk2me:hover {
   color:#00FF29;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    
+  }
+}
