@@ -83,7 +83,7 @@ header{
 }
 
 #therefore {
-  width:55vw;
+  width:50vw;
   padding:80px;
 }
 
@@ -94,6 +94,7 @@ main{
   align-items: center;
   justify-content: center;
   padding-bottom: 0px;
+
 }
 
 #circle{
@@ -237,10 +238,10 @@ footer {
   font-weight: 600;
   font-size: 2vw;
   border-radius:2em;
-  padding:20px;
   color:white;
   background-color:#00FF38;
   transition: all 0.2s;
+  padding: 20px 60px 20px 60px;
 }
 
 #thecasestudies:hover {
