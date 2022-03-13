@@ -74,6 +74,19 @@ header{
   background-color:black;
 }
 
+#think {
+  width:100%;
+  height:auto;
+  display: grid;
+  place-items:center;
+  padding-bottom:100px;
+}
+
+#therefore {
+  width:55vw;
+  padding:80px;
+}
+
 main{
   width:100%;
   height:auto;
