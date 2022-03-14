@@ -4,6 +4,11 @@ Height:auto;
 width: auto;
 }
 
+html {
+  max-width:100%;
+  overflow-x:hidden;
+}
+
 header{
   width:100%;
   height:auto;
@@ -12,6 +17,41 @@ header{
   justify-content: center;
   align-items:baseline;
   margin-top: -3%;
+}
+
+#maincontainer2 {
+top:20%;
+width:100%;
+height:auto;
+/* background-color: red; */
+font-family: 'Work Sans', sans-serif;
+color:black;
+padding-bottom:200px;
+position: absolute;
+z-index: 0;
+}
+
+#studyheader{
+  width:100%;
+  height:auto;
+  /* background-color: blue; */
+  background-color:white;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  Font-size: 5vw;
+}
+
+#persona  {
+  position: absolute;
+  font-weight: 500;
+  text-align: right;
+}
+
+#case1blob {
+  position: absolute;
+  margin-bottom:800px;
+  margin-left: 5%;
 }
 
 #huvudtext {
@@ -97,6 +137,7 @@ align-items: center;
 margin: auto;
 overflow-y: hidden;
 padding: 15px;
+padding-top:180px;
 }
 
 #prevcase {
@@ -118,25 +159,6 @@ height:auto;
 background-color:white;
 font-family: 'Work Sans', sans-serif;
 color:black;
-}
-
-#studyheader{
-  width:100%;
-  height:auto;
-  /* background-color: blue; */
-  background-color:white;
-  display: flex;
-  align-items: baseline;
-  justify-content: center;
-}
-
-#study1 {
-  font-size: 5vw;
-  padding:5px;
-}
-
-#study2 {
-  font-size: 2vw;
 }
 
 #intro{
@@ -224,12 +246,14 @@ color:black;
   font-size: 1.2vw;
   line-height: 1.2;
   align-items: flex-start;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .surveyheader{
   font-weight: 800;
   font-size: 1.5vw;
   padding: 15px;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .surveybild{
