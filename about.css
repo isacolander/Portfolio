@@ -244,6 +244,10 @@ footer {
   width:200px;
 }
 
+#mailhover:hover{
+color:black;  
+}
+
 #back2top {
   font-weight: 600;
   font-family: 'Work Sans', sans-serif;
@@ -289,6 +293,6 @@ footer {
 
 @media only screen and (max-width: 600px) {
   body {
-    
+
   }
 }
