@@ -1,7 +1,8 @@
 body {
 background-color:white;
 Height:auto;
-width: auto;
+max-width: 100%;
+overflow-x: hidden;
 }
 
 header{
@@ -17,7 +18,8 @@ header{
 #huvudtext {
 color:black;
 font-family: 'Oswald', sans-serif;
-font-size: 10vw;
+font-size: 10vw;'
+line-height: 0.5rem;
 }
 
 #uxfolio{
@@ -86,7 +88,15 @@ width:40vw;
 height:auto;
 }
 
+#container1 {
+  width:100%;
+  width:auto;
+  display: grid;
+  place-items:center;
+}
+
 #mediascroller {
+margin:auto;
 height:auto;
 width:80%;
 /* background-color: black; */
@@ -94,9 +104,9 @@ background-color:white;
 display: flex;
 justify-content: space-between;
 align-items: center;
-margin: auto;
 overflow-y: hidden;
 padding: 15px;
+padding-top:160px;
 }
 
 #prevcase {
@@ -122,6 +132,17 @@ font-family: 'Work Sans', sans-serif;
 color:black;
 }
 
+#maincontainer2 {
+top:20%;
+width:100%;
+height:auto;
+/* background-color: red; */
+font-family: 'Work Sans', sans-serif;
+color:black;
+padding-bottom:200px;
+position: absolute;
+}
+
 #studyheader{
   width:100%;
   height:auto;
@@ -130,15 +151,18 @@ color:black;
   display: flex;
   align-items: baseline;
   justify-content: center;
+  Font-size: 6.5vw;
 }
 
-#study1 {
-  font-size: 5vw;
-  padding:5px;
+#persona  {
+  position: absolute;
+  font-weight: 500;
 }
 
-#study2 {
-  font-size: 2vw;
+#case1blob {
+  position: absolute;
+  margin-bottom:800px;
+  margin-left: 5%;
 }
 
 #intro{
