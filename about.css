@@ -10,6 +10,17 @@ html {
   scroll-behavior: smooth;
 }
 
+#imp {
+  background-color:blue;
+  font-family: 'Work Sans', sans-serif;
+  color:white;
+  display:none;
+  place-items:Center;
+  height:auto;
+  font-size: 2rem;
+  padding:25px;
+}
+
 header{
   width:100%;
   height:auto;
@@ -245,7 +256,7 @@ footer {
 }
 
 #mailhover:hover{
-color:black;  
+color:black;
 }
 
 #back2top {
@@ -292,7 +303,7 @@ color:black;
 }
 
 @media only screen and (max-width: 600px) {
-  body {
-
+  #imp {
+    display:grid;
   }
 }
