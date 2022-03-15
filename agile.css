@@ -234,12 +234,16 @@ color:black;
   width:40%;
   display:flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: center;
   font-family: 'Work Sans', sans-serif;
 }
 
 #aqbild2 {
-  width:15vw;
+  width:20vw;
+}
+
+#aqbild2 {
+  width:30vw;
 }
 
 .surveytext{
