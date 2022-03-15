@@ -80,13 +80,9 @@ a:hover {
 /* Navigation */
 
 #circle{
-  /* background-color:green; */
-/*   width: 30vw;
-  height: 30vw; */
   width:auto;
   height: auto;
   border-radius: 50%;
-  /* filter: blur(8vw); */
   z-index: -2;
   display:grid;
   place-items:center
@@ -105,7 +101,6 @@ a:hover {
 }
 
 #floatbox{
-  /* margin-top:5%; */
   position: absolute;
 }
 
@@ -123,15 +118,7 @@ a:hover {
   color:blue;
 }
 
-
-
-#casestudyknapp {
-  color:white;
-}
-
-#casestudyknapp:hover {
-  color:white;
-}
+/* Hi! */
 
 #aboutmebild {
   width:100%;
@@ -143,17 +130,24 @@ a:hover {
   padding-bottom:50px;
 }
 
-#isac{
-  height:auto;
-  Width:20vw;
-}
-
 #ATG {
   font-family: 'Work Sans', sans-serif;
   font-size: 2.5vw;
   width:40%;
   height: auto;
   font-weight: 600;
+}
+
+#isac{
+  height:auto;
+  Width:20vw;
+}
+
+
+/* About me and Education! */
+
+#talk2me:hover {
+  color:#00FF29;
 }
 
 #aboutmebild2 {
@@ -201,6 +195,14 @@ footer {
   justify-content: center;
   /* display: grid;
   place-items:center; */
+}
+
+#casestudyknapp {
+  color:white;
+}
+
+#casestudyknapp:hover {
+  color:white;
 }
 
 #mailme {
@@ -256,17 +258,7 @@ footer {
   background-color:#007119;
 }
 
-@keyframes star {
-  0%   {opacity: 0}
-    25%  {opacity: 50%;}
-    50%  {opacity: 100%;}
-    75%  {opacity: 50%;}
-    100% {opacity: 0}
-}
-
-#talk2me:hover {
-  color:#00FF29;
-}
+/* Other! */
 
 @media only screen and (max-width: 900px) {
   #imp {
