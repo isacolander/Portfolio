@@ -80,7 +80,7 @@ a:hover {
 /* Navigation */
 
 #circle{
-  width:auto;
+  width:100%;
   height: auto;
   border-radius: 50%;
   z-index: -2;
@@ -88,16 +88,8 @@ a:hover {
   place-items:center
 }
 
-#circle2{
-  position: absolute;
-  background-color:red;
-  width: 30vw;
-  height: 30vw;
-  border-radius: 50%;
-  filter: blur(8vw);
-  z-index: -2;
-  margin-right: 90%;
-  margin-top: 50%;
+#blob {
+  width:40vw;
 }
 
 #floatbox{
