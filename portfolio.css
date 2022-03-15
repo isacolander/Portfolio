@@ -316,6 +316,11 @@ footer {
   font-weight: 600;
   font-size: 2.5vw;
   padding:50px;
+  transition: all 0.2s ease-in-out;
+}
+
+#mailme:hover {
+ transform: scale(1.1);
 }
 
 #logotype {
@@ -339,6 +344,13 @@ footer {
   border-radius:5px;
 }
 
+#mejl {
+  transition: all .2s ease-in-out;
+}
+
+#mejl:hover {
+  transform: scale(1.1);
+}
 
 a {
     text-decoration: none;
