@@ -85,7 +85,9 @@ display: none;
 }
 
 .menu:focus-within .navbar {
-display: block;
+  display: flex;
+  flex-direction: column;
+  gap:25px;
 }
 
 .hamburger {
@@ -102,6 +104,12 @@ flex-direction: column;
 align-items: center;
 justify-content: space-around;
 cursor: pointer;
+}
+
+#nav2 {
+  background-color: white;
+  border-radius: 10px;
+  padding:0px 10px 0px 10px;
 }
 
 #hamb{
