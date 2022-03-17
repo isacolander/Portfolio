@@ -330,6 +330,23 @@ footer {
   width:200px;
 }
 
+#thecasestudies{
+  width:auto;
+  height: auto;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  font-size: 2vw;
+  border-radius:2em;
+  padding:20px;
+  color:white;
+  background-color:#00FF38;
+  transition: all 0.2s;
+}
+
+#thecasestudies:hover {
+  background-color:#007119;
+}
+
 
 a {
     text-decoration: none;
