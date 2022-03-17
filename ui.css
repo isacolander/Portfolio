@@ -91,13 +91,14 @@ display: block;
 
 .hamburger {
 Background-color:white;
-border: none;
+border: 2px white;
+border-radius: 10px;
 width: 60px;
 height: 60px;
 position: fixed;
 left:93%;
 top:5%;
-padding: 5px;
+padding:5px;
 display: flex;
 flex-direction: column;
 align-items: center;
