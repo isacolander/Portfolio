@@ -314,10 +314,7 @@ footer {
 
 /* Other! */
 
-@media only screen and (max-width: 900px) {'
-  header {
-    padding-top:50px;
-  }
+@media only screen and (max-width: 900px) {
 
   #huvudtext {
     display: none;
@@ -350,16 +347,13 @@ footer {
   #thecasestudies{
     font-size: 1rem;
     padding:10px 20px 10px 20px;
+}
 
 }
 
 @media only screen and (min-width: 900px) {
 
-  header {
-    padding-top:0px;
-  }
-
-  #headerunder {
+  #mobiletext{
     display:none;
   }
 
@@ -371,11 +365,11 @@ footer {
     display: none;
   }
 
-  #mobiletext {
+  #imp {
     display:none;
   }
 
-  #imp {
+  #headerunder {
     display:none;
   }
 
