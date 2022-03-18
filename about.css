@@ -330,6 +330,10 @@ footer {
 
 @media only screen and (max-width: 900px) {
 
+  #think{
+    padding-bottom:30px;
+  }
+
   #huvudtext {
     display: none;
   }
