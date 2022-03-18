@@ -68,31 +68,34 @@ background-color:black;
 }
 
 .casestudy {
-  display:flex;
-  align-items: center;
-  justify-content: space-evenly;
+  display:grid;
+  grid-template:auto / auto;
   width:80%;
   height:200px;
-  background-color: red;
-  padding:15px;
+  /* background-color: red; */
+  align-items: center;
+  justify-content: center;
 }
 
 .casetitle {
-  grid-column-start: : 1;
   font-size:1.5rem;
-  display:grid;
-  place-items:center;
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  padding:15px;
 }
 
 #boximage {
-  grid-column: 2;
-  grid-row:1 2;
-  width:160px;
+  grid-column:2;
+  grid-row:1 / 2;
+  width:170px;
   height:auto;
 }
 
-#casereadmore{
-  font-size:1.5rem;
-  grid-column-start: 1;
-  grid-row:2;
+.casereadmore{
+  margin-top:30px;
+  width:auto;
+  height:auto;
+  font-size:1rem;
+  text-align: center;
 }
