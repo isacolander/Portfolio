@@ -51,7 +51,7 @@ a:hover {
   display:none;
   place-items:Center;
   height:auto;
-  font-size: 2rem;
+  font-size: 1rem;
   padding:25px;
 }
 
@@ -110,7 +110,7 @@ background-color:black;
   color:black;
   font-family: 'Oswald', sans-serif;
   font-size: 20px;
-  margin-top:-5%;
+  margin-top:-3%;
 }
 
 /* Header */
@@ -308,6 +308,20 @@ footer {
   padding: 20px 60px 20px 60px;
 }
 
+#mobilebutton{
+  width:auto;
+  height: auto;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 600;
+  border-radius:2em;
+  color:white;
+  background-color:#00FF38;
+  transition: all 0.2s;
+  font-size: 1rem;
+  padding:10px 20px 10px 20px;
+}
+
+
 #thecasestudies:hover {
   background-color:#007119;
 }
@@ -325,7 +339,7 @@ footer {
   }
 
   #imp {
-    display:none;
+    display:grid;
   }
 
   #aboutmebild {
@@ -341,13 +355,13 @@ footer {
   }
 
   footer {
-    display:none;
+    display: none;
   }
 
   #thecasestudies{
-    font-size: 1rem;
-    padding:10px 20px 10px 20px;
-}
+    display:None;
+  }
+
 
 }
 
@@ -370,6 +384,10 @@ footer {
   }
 
   #headerunder {
+    display:none;
+  }
+
+  #mobilebutton {
     display:none;
   }
 
