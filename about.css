@@ -75,7 +75,7 @@ a:hover {
 }
 
 #mobilenav{
-  padding-top:60px;
+  padding-top:20px;
   width:100%;
   height:auto;
   display: flex;
@@ -94,7 +94,7 @@ flex-direction: column;
 align-items: center;
 justify-content: space-around;
 cursor: pointer;
-margin-right:50px;
+margin-right:5%;
 }
 
 #hamb{
@@ -346,6 +346,10 @@ footer {
   footer {
     display:none;
   }
+
+  #thecasestudies{
+    font-size: 1rem;
+    padding:10px 20px 10px 20px;
 
 }
 
