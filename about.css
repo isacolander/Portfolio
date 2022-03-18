@@ -1,8 +1,8 @@
 
 body{
   background-color:white;
-  Height:auto;
-  width: auto;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 html {
