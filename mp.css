@@ -48,7 +48,7 @@ background-color:black;
 /* Header */
 
 #mobiletext {
-  width:auto;
+  width:80%;
   color:black;
   font-family: 'Oswald', sans-serif;
   font-size: 2rem;
@@ -68,31 +68,34 @@ background-color:black;
 }
 
 .casestudy {
+  padding:15px;
   display:grid;
   grid-template:auto / auto;
   width:80%;
-  height:200px;
+  height:auto;
   /* background-color: red; */
   align-items: center;
-  justify-content: center;
+  justify-content:flex-start;
+  text-align: left;
 }
 
 .casetitle {
-  font-size:1.5rem;
+  font-size:1.2rem;
   display:flex;
   flex-direction: column;
-  text-align: center;
   padding:15px;
+  min-width:80px;
 }
 
 #boximage {
   grid-column:2;
   grid-row:1 / 2;
-  width:170px;
+  width:160px;
   height:auto;
 }
 
 .casereadmore{
+  font-family: 'Oswald', sans-serif;
   margin-top:30px;
   width:auto;
   height:auto;
