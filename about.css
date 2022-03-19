@@ -67,7 +67,9 @@ a:hover {
   width:auto;
   color:black;
   font-family: 'Oswald', sans-serif;
-  font-size: 160px;
+  font-size:9rem;
+  align-items: baseline;
+  margin-top:-8%;
 }
 
 #mobilethink {
@@ -121,8 +123,6 @@ background-color:black;
   font-size: 10vw;
   /* font-size:180px; */
 }
-
-
 
 /* I Think therefore I design */
 
