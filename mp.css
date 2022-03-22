@@ -11,7 +11,15 @@ html {
 header{
 font-family: 'Work Sans', sans-serif;
 font-weight: 600;
+max-width: 100%;
+overflow-x: hidden;
+}
 
+a {
+    text-decoration: none;
+    color:black;
+    margin:0px;
+    padding:0px;
 }
 
 /* Hamburger */
