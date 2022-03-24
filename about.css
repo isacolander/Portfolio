@@ -67,7 +67,7 @@ a:hover {
   font-family: 'Oswald', sans-serif;
   font-size:9rem;
   align-items: baseline;
-  margin-top:-8%;
+  /* margin-top:-8%; */
   line-height: 9rem;
 }
 
@@ -81,7 +81,7 @@ a:hover {
   height:auto;
   display: flex;
   justify-content: flex-end;
-  padding-bottom: 50px;
+  padding-bottom:25px;
 }
 
 .hamburger {
@@ -109,12 +109,12 @@ background-color:black;
   text-align: center;
   display:grid;
   padding-top:20px;
+  padding-bottom: 10px;
   place-items:center;
   width:auto;
   color:black;
   font-family: 'Oswald', sans-serif;
   font-size: 1.5rem;
-  margin-top:-3%;
 }
 
 /* Header */
