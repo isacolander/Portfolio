@@ -330,6 +330,32 @@ footer {
 
 @media only screen and (max-width: 900px) {
 
+  body{
+    background-color:#2F5147;
+  }
+
+  .hamburger {
+    background-color:#2F5147;
+    border-color: #2F5147;
+  }
+#mobilebutton {
+
+  background-color: #F2404A;
+}
+
+
+  #mobiletext {
+      color:#F5EDD8;
+  }
+
+  #headerunder {
+      color:#F5EDD8;
+  }
+
+  #hamb {
+      background-color:#F5EDD8;
+  }
+
   #think{
     padding-bottom:30px;
   }
