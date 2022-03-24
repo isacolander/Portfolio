@@ -38,6 +38,8 @@ a:hover {
     color:white;
 }
 
+/* NAV BAR */
+
 .overlay{
     position: fixed;
     top: 0;
@@ -57,6 +59,7 @@ a:hover {
 }
 
 #hamburger-menu {
+  margin-right: 10px;
     width: 50px;
     height: 50px;
     display:inline;
@@ -131,7 +134,6 @@ text-align: center;
 }
 
 
-
 /* Mobile Design header */
 
 #imp {
@@ -164,7 +166,7 @@ text-align: center;
 }
 
 #mobilethink {
-  width:80vw;
+  max-width:80vw;
 }
 
 #mobilenav{
