@@ -67,9 +67,9 @@ a:hover {
     background: linear-gradient(
       to bottom,
       #2F5147, #2F5147 20%,
-      white 20%, white 40%,
+      #F5EDD8 20%, #F5EDD8 40%,
       #2F5147 40%, #2F5147 60%,
-      white 60%, white 80%,
+      #F5EDD8 60%, #F5EDD8 80%,
       #2F5147 80%, #2F5147 100%
     );
 }
