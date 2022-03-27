@@ -133,6 +133,19 @@ text-align: center;
   opacity: 0.4;
 }
 
+#bildermp {
+  display:flex;
+  margin-top:50px;
+  justify-content:center;
+}
+
+#bildermp img {
+}
+
+#bildermp a {
+  border:2px #2F5147 solid;
+}
+
 
 /* Mobile Design header */
 
