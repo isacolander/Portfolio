@@ -6,6 +6,7 @@ body{
 
 html {
   scroll-behavior: smooth;
+
 }
 
 header{
@@ -232,4 +233,49 @@ background-color:black;
   height:auto;
   font-size:1rem;
   text-align: center;
+}
+
+/* ABOUT ME */
+#n2my {
+  padding-top:15px;
+  display:grid;
+  place-items:center;
+}
+
+#nm2ybild {
+  /* background-color: red; */
+  margin-top:-40px;
+}
+
+#croatia {
+  display:grid;
+  place-items:center;
+  padding-bottom:25px;
+}
+
+#crbild {
+  width:290px;
+}
+
+#textab {
+font-family: 'Work Sans', sans-serif;
+display:grid;
+place-items:Center;
+}
+
+#AB {
+  font-size: 1.5rem;
+  width:80%;
+  font-weight:700;
+}
+
+#text {
+  font-size: 1rem;
+width:80%;
+}
+
+#Education {
+  font-size: 1.5rem;
+  width:80%;
+  font-weight: 700;
 }
