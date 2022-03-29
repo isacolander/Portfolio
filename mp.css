@@ -276,6 +276,12 @@ place-items:Center;
 width:80%;
 }
 
+#text b {
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-weight: 600;
+}
+
 #Education {
   font-size: 1.5rem;
   width:80%;
