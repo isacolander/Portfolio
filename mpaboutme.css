@@ -78,7 +78,7 @@ a {
     right: -250px;
     width: 200px;
     height: 100%;
-    background-color:white;
+    background-color: #2F5147;
     transition: 0.3s;
     padding: 0px 10px;
 
@@ -89,7 +89,7 @@ a {
   padding-right:15px;
   padding-top:15px;
   margin-top:100px;
-  color:black;
+  color:#F5EDD8;
   font-size: 2.2rem;
 }
 
@@ -104,11 +104,11 @@ text-align: center;
 }
 
 #hamburger-menu a {
-  border:2px black solid;
+  border:2px #F5EDD8 solid;
   padding:15px;
   border-radius: 50%;
   font-weight: bold;
-  color:black;
+  color:#F5EDD8;
   font-size: 1.3rem;
   text-decoration: none;
 }
@@ -140,7 +140,7 @@ text-align: center;
 }
 
 #bildermp a {
-  border:2px white solid;
+  border:2px #2F5147 solid;
 }
 
 
