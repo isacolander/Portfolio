@@ -246,6 +246,7 @@ background-color:black;
   /* background-color: red; */
   /* margin-top:-40px; */
   width:70%;
+  max-width: 400px;
 }
 
 #croatia {
@@ -256,6 +257,7 @@ background-color:black;
 
 #crbild {
   width:70%;
+  max-width: 400px;
 }
 
 #textab {
