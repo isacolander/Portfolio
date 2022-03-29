@@ -237,7 +237,7 @@ background-color:black;
 /* ABOUT ME */
 #n2my {
   padding-top:15px;
-  padding-bottom:15px;
+  /* padding-bottom:15px; */
   display:grid;
   place-items:center;
 }
@@ -245,7 +245,7 @@ background-color:black;
 #nm2ybild {
   /* background-color: red; */
   /* margin-top:-40px; */
-  width:80%;
+  width:60%;
 }
 
 #croatia {
