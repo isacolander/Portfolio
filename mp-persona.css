@@ -1,5 +1,5 @@
 body{
-  background-color:#FEFFE4;
+  background-color:#FEFFE4; /* WHITE */
   max-width: 100%;
   overflow-x: hidden;
 }
@@ -180,11 +180,11 @@ text-align: center;
   color:#252525;
   height:auto;
   min-width:200px;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 #title img {
-  width:30vw;
+  width:20vw;
   height:auto;
   /* filter:saturate(0); */
 }
@@ -197,4 +197,20 @@ text-align: center;
 
 #almaimage img{
   width:100%;
+}
+
+#this-case {
+  padding-top:25px;
+  width:90%;
+  font-weight: 800;
+  font-size: 1.2rem;
+  line-height: 1.5rem;
+}
+
+#pre-tense {
+  padding-top:25px;
+  width:90%;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.3rem;
 }
