@@ -17,9 +17,6 @@ header{
   height:auto;
   display: flex;
   justify-content: flex-start;
-  /* flex-direction: column;
-  justify-content: center;
-  align-items:center; */
 }
 
 main{
@@ -301,7 +298,7 @@ background-color:black;
   font-family: 'Work Sans', sans-serif;
   color:#F5EDD8;
   font-size: 2.5vw;
-  width:40%;
+  width:50%;
   height: auto;
   font-weight: 600;
 }
@@ -453,6 +450,13 @@ footer {
   body{
     width:100%;
     background-color:#2F5147;
+  }
+
+  header {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
   }
 
   .hamburger {
