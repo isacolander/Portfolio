@@ -1,22 +1,25 @@
 
 body{
-  background-color:white;
-  max-width: 100%;
+  background-color:#2F5147;
+  width:75%;
   overflow-x: hidden;
 }
 
 html {
   scroll-behavior: smooth;
-
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
 }
 
 header{
   width:100%;
   height:auto;
   display: flex;
-  flex-direction: column;
+  justify-content: flex-start;
+  /* flex-direction: column;
   justify-content: center;
-  align-items:center;
+  align-items:center; */
 }
 
 main{
@@ -31,6 +34,7 @@ main{
 a {
     text-decoration: none;
     color:black;
+
 }
 
 a:hover {
@@ -227,10 +231,10 @@ background-color:black;
 /* Header */
 
 #huvudtext {
-  color:black;
+  color:#F5EDD8;
   font-family: 'Oswald', sans-serif;
-  font-size: 10vw;
-  line-height: 10vw;
+  font-size: 8vw;
+  line-height: 8vw;
 }
 
 /* I Think therefore I design */
@@ -295,6 +299,7 @@ background-color:black;
 
 #ATG {
   font-family: 'Work Sans', sans-serif;
+  color:#F5EDD8;
   font-size: 2.5vw;
   width:40%;
   height: auto;
@@ -309,6 +314,10 @@ background-color:black;
 
 /* About me and Education! */
 
+#talk2me {
+  color:#F5EDD8;
+}
+
 #talk2me:hover {
   color:#00FF29;
 }
@@ -317,6 +326,7 @@ background-color:black;
   font-family: 'Work Sans', sans-serif;
   width:100%;
   height:auto;
+  color:#F5EDD8;
   /* background-color:red; */
   display:flex;
   flex-wrap: wrap;
@@ -345,6 +355,7 @@ background-color:black;
   font-size: 2vw;
   width:45%;
   font-weight: 500;
+
 }
 
 /* Footer */
@@ -375,17 +386,17 @@ footer {
   font-weight: 600;
   font-size: 2.5vw;
   padding:50px;
-  color:black;
+  color:#F5EDD8;
   transition: all 0.2s ease-in-out;
 }
 
 #mailme:hover {
  transform: scale(1.1);
- color:black;
+ color:#F5EDD8;
 }
 
 #mailhover {
-  color:black;
+  color:#F5EDD8;
 }
 
 
@@ -440,6 +451,7 @@ footer {
 @media only screen and (max-width: 900px) {
 
   body{
+    width:100%;
     background-color:#2F5147;
   }
 
@@ -447,7 +459,7 @@ footer {
     background-color:#2F5147;
     border-color: #2F5147;
   }
-  
+
   #mobilebutton {
 
   background-color: #F2404A;
