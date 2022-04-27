@@ -83,8 +83,20 @@ font-weight: bold;
   font-weight: bold;
 }
 
+#left-aboutme {
+  font-weight: 400;
+}
+
+#left-CV {
+  font-weight: 400;
+}
+
 #left-contact {
   font-weight: bold;
+}
+
+#left-contact div {
+  font-weight: 400;
 }
 
 /* NAV BAR */
@@ -390,6 +402,7 @@ header a {
   flex-wrap: wrap;
   align-items: baseline;
   justify-content: center;
+  padding-bottom:100px;
 }
 
 #AB{
@@ -518,6 +531,10 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items:center;
+  }
+
+  #leftside , #tvo{
+    display: none;
   }
 
   .hamburger {
