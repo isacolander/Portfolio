@@ -46,7 +46,7 @@ a:hover {
 }
 
 #leftside a:hover {
-  color:white;
+  color:#B7AD92;
 }
 
 #leftside {
@@ -99,7 +99,7 @@ font-weight: bold;
   font-weight: 400;
 }
 
-/* NAV BAR */
+/* MOBILE NAV BAR */
 
 .overlay{
     position: fixed;
@@ -206,7 +206,6 @@ text-align: center;
 #bildermp a {
   border:2px #2F5147 solid;
 }
-
 
 /* Mobile Design header */
 
@@ -379,6 +378,86 @@ header a {
   height:auto;
   Width:20vw;
 }
+
+/* PROJECT DISPLAY */
+
+#project-display {
+  width: 100%;
+  height:auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 15px;
+  font-family: 'Work Sans', sans-serif;
+  font-size: 1.4rem;
+  color:#F5EDD8;
+}
+
+#project1 {
+  width:100%;
+  height:auto;
+  /* background-color: red; */
+  grid-area: 1 / 1 / 3 / 3;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#project1 img {
+  width:100%;
+  height:auto;
+}
+
+#project2 img {
+  width:90%;
+  height:auto;
+}
+
+#project2 {
+  width:100%;
+  height:auto;
+  /* background-color: black; */
+  grid-area: 1 / 3 / 3 / 6;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+#project3 {
+  width:100%;
+  height:auto;
+  background-color: black;
+  grid-area: 3 / 1 / 5 / 4;
+}
+
+#project4 {
+  width:100%;
+  height:auto;
+  background-color: black;
+  grid-area: 3 / 4 / 5 / 6;
+}
+
+#project5 {
+  width:100%;
+  height:400px;
+  background-color: black;
+  grid-area: 5 / 1 / 7 / 3;
+}
+
+.project-title {
+  padding-top: 5px;
+ width: 100%;
+ font-weight: 600;
+}
+
+.project-text {
+width: 100%;
+font-weight: 400;
+}
+
+
+
 
 
 /* About me and Education! */
