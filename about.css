@@ -418,8 +418,13 @@ header a {
   justify-content: space-between;
 }
 
-#project1 img {
+#project1 a {
   width:100%;
+  height:auto;
+}
+
+#project1 img {
+  width:89%;
   height:auto;
 }
 
