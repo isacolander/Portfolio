@@ -384,6 +384,10 @@ header a {
 #project-display {
   width: 100%;
   height:auto;
+  /*
+  display: flex;
+  flex-wrap: wrap;
+*/
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(6, auto);
@@ -408,7 +412,7 @@ header a {
 }
 
 #project1 img {
-  width:93%;
+  width:89%;
   height:auto;
 }
 
@@ -442,8 +446,12 @@ header a {
 #project4 {
   width:100%;
   height:auto;
-
   grid-area: 3 / 4 / 5 / 6;
+}
+
+#project4 img {
+  width:89%;
+  height:auto;
 }
 
 #project5 {
@@ -469,9 +477,6 @@ font-weight: 400;
 }
 
 
-
-
-
 /* About me and Education! */
 
 #talk2me {
@@ -493,7 +498,7 @@ font-weight: 400;
   align-items: baseline;
   justify-content: center;
   padding-bottom:100px;
-  padding-top:100px;
+  padding-top:50px;
 }
 
 #AB{
