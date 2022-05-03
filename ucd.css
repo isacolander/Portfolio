@@ -128,6 +128,17 @@ header a {
   line-height: 9rem;
 }
 
+#mobilenav{
+  padding-top:20px;
+  width:100%;
+  height:auto;
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom:25px;
+}
+
+
+
 /* Case header */
 
 #Case-Story-header {
@@ -342,5 +353,9 @@ header a {
 
   #mobiletext {
     display: none;
+  }
+
+  #mobilenav {
+    display:none;
   }
 }
