@@ -399,6 +399,13 @@ header a {
   padding:25px;
   padding-bottom:70px;
 }
+#project-display a {
+  color:#F5EDD8;
+}
+
+#project-display a:hover {
+  color:#B7AD92;
+}
 
 #project1 {
   width:100%;
@@ -412,7 +419,7 @@ header a {
 }
 
 #project1 img {
-  width:89%;
+  width:100%;
   height:auto;
 }
 
