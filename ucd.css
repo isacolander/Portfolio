@@ -147,6 +147,39 @@ header a {
   color:#F5EDD8;
 }
 
+
+/* MAIN CONTENT */
+
+#huvuddel {
+  font-family: 'Work Sans', sans-serif;
+  color:#F5EDD8;
+  display:flex;
+  flex-wrap: wrap;
+  align-items:center;
+  justify-content: center;
+}
+
+#pic-container {
+  width:50%;
+  height:auto;
+  /* background-color:#825600; BRUN */
+  display: grid;
+  place-items:center;
+}
+
+#pic-container img {
+  width:100%;
+  max-width: 600px;
+  height:auto;
+}
+
+.text {
+  width:40%;
+  padding:25px;
+}
+
+
+
 /* MOBILE NAV BAR */
 
 .overlay{
