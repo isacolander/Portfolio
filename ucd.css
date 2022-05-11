@@ -1,5 +1,10 @@
+:root{
+  --green-bg:#2F5147;
+  --beach-yt:#F5EDD8;
+}
+
 body{
-  background-color:#2F5147;
+  background-color: var(--green-bg);
   width:75%;
   overflow-x: hidden;
 }
@@ -40,7 +45,7 @@ a:hover {
 /* Left side */
 
 #leftside a {
-  color:#F5EDD8;
+  color:var(--beach-yt);
 }
 
 #leftside a:hover {
@@ -56,7 +61,7 @@ a:hover {
   height:100%;
   /* background-color: red; */
   font-family: 'Work Sans', sans-serif;
-  color:#F5EDD8;
+  color:var(--beach-yt);
   display:grid;
   place-items:center;
 }
@@ -71,7 +76,7 @@ font-weight: bold;
 }
 
 #project-list {
-  color:#F5EDD8;
+  color:var(--beach-yt);
   list-style: none;
   font-weight: 400;
   padding-inline-start:0px;
@@ -106,14 +111,14 @@ header a {
 }
 
 #huvudtext {
-  color:#F5EDD8;
+  color:var(--beach-yt);
   font-family: 'Oswald', sans-serif;
   font-size: 8vw;
   line-height: 8vw;
 }
 
 #tvo {
-  color:#F5EDD8;
+  color:var(--beach-yt);
   font-family: 'Oswald', sans-serif;
   font-size: 3vw;
   line-height: 3vw;
@@ -121,7 +126,7 @@ header a {
 
 #mobiletext {
   width:auto;
-  color:#F5EDD8;
+  color:var(--beach-yt);
   font-family: 'Oswald', sans-serif;
   font-size:9rem;
   align-items: center;
@@ -145,7 +150,7 @@ header a {
 #Case-Story-header {
   width:100%;
   font-family: 'Work Sans', sans-serif;
-  color:#F5EDD8;
+  color:var(--beach-yt);
 }
 
 
@@ -153,7 +158,7 @@ header a {
 
 #huvuddel {
   font-family: 'Work Sans', sans-serif;
-  color:#F5EDD8;
+  color:var(--beach-yt);
   display:flex;
   flex-wrap: wrap;
   align-items:flex-start;
@@ -185,7 +190,7 @@ header a {
 
 #part-1 {
   font-family: 'Work Sans', sans-serif;
-  color:#F5EDD8;
+  color:var(--beach-yt);
   display:flex;
   flex-wrap: wrap;
   align-items:flex-start;
@@ -194,7 +199,7 @@ header a {
 }
 
 #part-1 a {
-  color:#F5EDD8;
+  color:var(--beach-yt);
 }
 
 #part-1 a:hover {
@@ -208,7 +213,7 @@ header a {
 
 #part-2 {
   font-family: 'Work Sans', sans-serif;
-  color:#F5EDD8;
+  color:var(--beach-yt);
   display:flex;
   flex-wrap: wrap;
   align-items:flex-start;
@@ -217,7 +222,7 @@ header a {
 }
 
 #part-2 a {
-  color:#F5EDD8;
+  color:var(--beach-yt);
 }
 
 #part-2 a:hover {
@@ -231,7 +236,7 @@ header a {
 
 #part-3 {
   font-family: 'Work Sans', sans-serif;
-  color:#F5EDD8;
+  color:var(--beach-yt);
   display:flex;
   flex-wrap: wrap;
   align-items:flex-start;
@@ -240,7 +245,7 @@ header a {
 }
 
 #part-3 a {
-  color:#F5EDD8;
+  color:var(--beach-yt);
 }
 
 #part-3 a:hover {
@@ -298,7 +303,7 @@ header a {
     right: -250px;
     width: 200px;
     height: 100%;
-    background-color: #2F5147;
+    background-color: var(--green-bg);
     transition: 0.3s;
     padding: 0px 10px;
 }
@@ -308,7 +313,7 @@ header a {
   padding-right:15px;
   padding-top:15px;
   margin-top:100px;
-  color:#F5EDD8;
+  color:var(--beach-yt);
   font-size: 2.2rem;
 }
 
@@ -327,7 +332,7 @@ text-align: center;
   padding:15px;
   border-radius: 50%;
   font-weight: bold;
-  color:#F5EDD8;
+  color:var(--beach-yt);
   font-size: 1.3rem;
   text-decoration: none;
 }
@@ -400,17 +405,17 @@ footer {
   font-weight: 600;
   font-size: 1.5rem;
   padding:50px;
-  color:#F5EDD8;
+  color:var(--beach-yt);
   transition: all 0.2s ease-in-out;
 }
 
 #mailme:hover {
  transform: scale(1.1);
- color:#F5EDD8;
+ color:var(--beach-yt);
 }
 
 #mailhover {
-  color:#F5EDD8;
+  color:var(--beach-yt);
 }
 
 #back2top {
