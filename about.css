@@ -1,6 +1,10 @@
+:root{
+  --green-bg:#2F5147;
+  --beach-yt:#F5EDD8;
+}
 
 body{
-  background-color:#2F5147;
+  background-color:var(--green-bg);
   width:75%;
   overflow-x: hidden;
 }
@@ -42,7 +46,7 @@ a:hover {
 /* Left side */
 
 #leftside a {
-  color:#F5EDD8;
+  color:var(--beach-yt);
 }
 
 #leftside a:hover {
@@ -58,7 +62,7 @@ a:hover {
   height:100%;
   /* background-color: red; */
   font-family: 'Work Sans', sans-serif;
-  color:#F5EDD8;
+  color:var(--beach-yt);
   display:grid;
   place-items:center;
 }
@@ -73,7 +77,7 @@ font-weight: bold;
 }
 
 #project-list {
-  color:#F5EDD8;
+  color:var(--beach-yt);
   list-style: none;
   font-weight: 400;
   padding-inline-start:0px;
@@ -143,7 +147,7 @@ font-weight: bold;
     right: -250px;
     width: 200px;
     height: 100%;
-    background-color: #2F5147;
+    background-color:var(--green-bg);
     transition: 0.3s;
     padding: 0px 10px;
 }
@@ -153,7 +157,7 @@ font-weight: bold;
   padding-right:15px;
   padding-top:15px;
   margin-top:100px;
-  color:#F5EDD8;
+  color:var(--beach-yt);
   font-size: 2.2rem;
 }
 
@@ -172,7 +176,7 @@ text-align: center;
   padding:15px;
   border-radius: 50%;
   font-weight: bold;
-  color:#F5EDD8;
+  color:var(--beach-yt);
   font-size: 1.3rem;
   text-decoration: none;
 }
@@ -291,14 +295,14 @@ header a {
 }
 
 #huvudtext {
-  color:#F5EDD8;
+  color:var(--beach-yt);
   font-family: 'Oswald', sans-serif;
   font-size: 8vw;
   line-height: 8vw;
 }
 
 #tvo {
-  color:#F5EDD8;
+  color:var(--beach-yt);
   font-family: 'Oswald', sans-serif;
   font-size: 3vw;
   line-height: 3vw;
@@ -366,7 +370,7 @@ header a {
 
 #ATG {
   font-family: 'Work Sans', sans-serif;
-  color:#F5EDD8;
+  color:var(--beach-yt);
   font-size: 2.5vw;
   width:50%;
   height: auto;
@@ -395,12 +399,12 @@ header a {
   grid-row-gap: 15px;
   font-family: 'Work Sans', sans-serif;
   font-size: 1.4rem;
-  color:#F5EDD8;
+  color:var(--beach-yt);
   padding:25px;
   padding-bottom:70px;
 }
 #project-display a {
-  color:#F5EDD8;
+  color:var(--beach-yt);
   width:100%;
   height:auto;
 }
@@ -489,7 +493,7 @@ font-weight: 400;
 /* About me and Education! */
 
 #talk2me {
-  color:#F5EDD8;
+  color:var(--beach-yt);
 }
 
 #talk2me:hover {
@@ -500,7 +504,7 @@ font-weight: 400;
   font-family: 'Work Sans', sans-serif;
   width:100%;
   height:auto;
-  color:#F5EDD8;
+  color:var(--beach-yt);
   /* background-color:red; */
   display:flex;
   flex-wrap: wrap;
@@ -562,17 +566,17 @@ footer {
   font-weight: 600;
   font-size: 2.5vw;
   padding:50px;
-  color:#F5EDD8;
+  color:var(--beach-yt);
   transition: all 0.2s ease-in-out;
 }
 
 #mailme:hover {
  transform: scale(1.1);
- color:#F5EDD8;
+ color:var(--beach-yt);
 }
 
 #mailhover {
-  color:#F5EDD8;
+  color:var(--beach-yt);
 }
 
 
@@ -654,15 +658,15 @@ footer {
 
 
   #mobiletext {
-      color:#F5EDD8;
+      color:var(--beach-yt);
   }
 
   #headerunder {
-      color:#F5EDD8;
+      color:var(--beach-yt);
   }
 
   #hamb {
-      background-color:#F5EDD8;
+      background-color:var(--beach-yt);
   }
 
   #think{
