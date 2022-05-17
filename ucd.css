@@ -2,6 +2,12 @@
   --green-bg:#2F5147;
   --beach-yt:#F5EDD8;
 }
+ /* OUTLINE CHECKER */
+/*
+* {
+  outline: 1px red solid;
+}
+*/
 
 body{
   background-color: var(--green-bg);
